@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<img src="img/left-top.png" alt="" class="left-top">
+	<img src="img/right-top-top.png" alt="" class="right-top-top">
+	<img src="img/right-top-bottom.png" alt="" class="right-top-bottom">
+	<div class="logo"><img src="img/logo.png" alt=""></div>
+	<div style="margin-bottom: 5px; margin-top: 60px" class="title1">
+		<div>Здравствуйте, <%= name %> <br><br>
+		Вы указали этот адрес при регистрации на сайте<br>
+		<%= site_name %>. Чтобы продолжить, нажмите
+		на кнопку ниже.</div>
+	</div>
+	<div class="arrows"><i class="fas fa-arrow-down"></i></div>
+	<div class="button">
+		<button>Смотреть</button>
+	</div>
+	<div class="subtitle-container">
+		<div style="display: none" class="subtitle1">
+			Если вы не отправляли запрос - обратитесь в техподдержку и поменяйте пароль от вашего личного кабинета.
+		</div>
+	</div>
+	<div class="line"></div>
+	<div class="socials">
+		<div class="social">
+			<div class="social__title">Звоните по любым вопросам</div>
+			<div class="social__phone">8-800-550-90-56</div>
+		</div>
+		<div class="social">
+			<div class="social__title">Мы в соцсетях</div>
+			<div class="social-logos">
+				<div class="social-logo">
+					<a target="_blank" href="https://www.facebook.com/amircapitalfund/">
+						<img src="img/fb.png" alt="">
+					</a>
+				</div>
+				<div class="social-logo">
+					<a target="_blank" href="https://www.instagram.com/amircapital/">
+						<img src="img/inst.png" alt="">
+					</a>
+				</div>
+				<div class="social-logo">
+					<a target="_blank" href="https://vk.com/amir_capital">
+						<img src="img/vk.png" alt="">
+					</a>
+				</div>
+				<div class="social-logo">
+					<a target="_blank" href="https://www.youtube.com/channel/UCFAruvM9yCHgrYvWHAiEKmw?view_as=subscriber">
+						<img src="img/yt.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="social">
+			<div class="social__title">Скачайте любимое приложение</div>
+			<div class="social-apps">
+				<div class="social-app">
+					<a href="#">
+						<img src="img/apple.png" alt="">
+					</a>
+				</div>
+				<div class="social-app">
+					<a href="#">
+						<img src="img/android.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

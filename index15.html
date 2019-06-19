@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<img src="img/left-top.png" alt="" class="left-top">
+	<img src="img/right-top-top.png" alt="" class="right-top-top">
+	<img src="img/right-top-bottom.png" alt="" class="right-top-bottom">
+	<div class="logo"><img src="img/logo.png" alt=""></div>
+	<div style="margin-bottom: 0;margin-top: 40px" class="title1">
+		<div>Здравствуйте, <%= name %>.</div>
+		<div>Инвест-партнер фонда Amir Capital <%= partnername %>, <br>
+			приглашает Вас стать инвестором нашей компании.
+		</div>
+		<div><b>7 причин</b>, которые могут заинтересовать Вас <br>
+			<b>сделать это прямо сейчас:</b> <br> <br>
+		</div>
+	</div>
+	<div class="list">
+		<b>1.</b> Еженедельная капитализация; <br> <br>
+		<b>2.</b> Размещение средств доступно в трёх
+		криптовалютах: Bitcoin, Ethereum и Tether; <br><br>
+		<b>3.</b> Открытие счёта возможно с 10$;<br><br>
+		<b>4.</b> Возможен еженедельный вывод средств, отсутствуют комиссии на ввод и вывод;<br><br>
+		<b>5.</b> С Вами заключается официальный Договор;<br><br>
+		<b>6.</b> Фонд имеет страховое обеспечение;<br><br>
+		<b>7.</b> Средствами управляет профессиональная команда трейдеров Фонда - 24 часа в сутки/7 дней в неделю, в разных часовых поясах;
+	</div>
+	<div class="desc">Amir Capital позволит Вам стать финансово независимым и<br>
+				приумножить капитал при полной прозрачности. <br> <br>
+				Для продолжения нажмите на кнопку ниже
+	</div>
+	<div class="arrows"><i class="fas fa-arrow-down"></i></div>
+	<div class="button">
+		<button>Стать инвестором</button>
+	</div>
+	<div class="desc">или перейдите по ссылке: <br><br>
+		<a href="https://account.amir.capital/front/register/?refferal= <%= code %> ">https://account.amir.capital/front/register/?refferal= <%= code %></a> <br><br>
+		<%= partnername %> поможет и ответит на все ваши вопросы. <br><br>
+		Tel: <%= partnerphone %> <br><br>
+		E-mail: <%= partneremail %>  <br><br>
+		<b>или</b><br><br>
+		Вы можете самостоятельно разобраться во всем<br>
+		с помощью пошаговой видео презентации.
+	</div>
+	<div class="note-line">
+		<img class="note-left-top" src="img/note-img3.png" alt="">
+		<img class="note-left-btm" src="img/note-img4.png" alt="">
+		<img class="note-shadow" src="img/note-shadow.png" alt="">
+		<img class="note" src="img/note.png" alt="">
+		<img class="note-screen" src="img/screen.png" alt="">
+		<img class="note-right-btm" src="img/note-img3.png" alt="">
+		<img class="note-right-top" src="img/note-img2.png" alt="">
+	</div>
+	<div style="margin-top: 0px" class="subtitle-container">
+		<div style="margin-top: 0px" class="subtitle1">
+			Вы получили это письмо, потому что этот электронный
+			адрес был указан в приглашении. <br><br>
+			Если письмо попало к вам по ошибке, просим
+			Вас проигнорировать его.
+		</div>
+	</div>
+	<div class="line">
+	</div>
+	<div class="socials">
+		<div class="social">
+			<div class="social__title">Звоните по любым вопросам</div>
+			<div class="social__phone">8-800-550-90-56</div>
+		</div>
+		<div class="social">
+			<div class="social__title">Мы в соцсетях</div>
+			<div class="social-logos">
+				<div class="social-logo">
+					<a target="_blank" href="https://www.facebook.com/amircapitalfund/">
+						<img src="img/fb.png" alt="">
+					</a>
+				</div>
+				<div class="social-logo">
+					<a target="_blank" href="https://www.instagram.com/amircapital/">
+						<img src="img/inst.png" alt="">
+					</a>
+				</div>
+				<div class="social-logo">
+					<a target="_blank" href="https://vk.com/amir_capital">
+						<img src="img/vk.png" alt="">
+					</a>
+				</div>
+				<div class="social-logo">
+					<a target="_blank" href="https://www.youtube.com/channel/UCFAruvM9yCHgrYvWHAiEKmw?view_as=subscriber">
+						<img src="img/yt.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="social">
+			<div class="social__title">Скачайте любимое приложение</div>
+			<div class="social-apps">
+				<div class="social-app">
+					<a href="#">
+						<img src="img/apple.png" alt="">
+					</a>
+				</div>
+				<div class="social-app">
+					<a href="#">
+						<img src="img/android.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
