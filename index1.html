@@ -11,14 +11,20 @@
 	<img src="img/left-top.png" alt="" class="left-top">
 	<img src="img/right-top-top.png" alt="" class="right-top-top">
 	<img src="img/right-top-bottom.png" alt="" class="right-top-bottom">
-	<div class="logo"><img src="img/logo.png" alt=""></div>
+	<div class="logo">
+		<a target="_blank" href="https://amir.capital/">
+			<img src="img/logo.png" alt="">
+		</a>
+	</div>
 	<div class="title1">
 		<div>Здравствуйте, <%= name %></div>
 		<div>Мы получили от вас запрос на замену email</div>
 		<div>Чтобы сменить E-mail, нажмите на кнопку ниже.</div>
 	</div>
 	<div class="button">
-		<button>Сменить</button>
+		<button>
+			<a target="_blank" href="<%= host %>account/change_email_verify/<%= code %>">Сменить</a>
+		</button>
 	</div>
 	<div class="subtitle-container">
 		<div class="subtitle1">
@@ -29,7 +35,9 @@
 	<div class="socials">
 		<div class="social">
 			<div class="social__title">Звоните по любым вопросам</div>
-			<div class="social__phone">8-800-550-90-56</div>
+			<div class="social__phone">
+				<a href="tel:+74992130257">+7-499-213-02-57</a>
+			</div>
 		</div>
 		<div class="social">
 			<div class="social__title">Мы в соцсетях</div>
