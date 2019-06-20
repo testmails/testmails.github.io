@@ -336,10 +336,11 @@ b{
 	.title1 div{
 		font-size: 25px;
 	}
-	button{
+	button a{
 		width: 400px;
 		height: 70px;
 		font-size: 25px;
+		line-height: 70px;
 	}
 	.list{
 		width: 95%;
@@ -386,10 +387,11 @@ b{
 
 }
 @media only screen and (max-width: 576px){
-	button{
+	button a{
 		width: 280px;
 		height: 60px;
 		font-size: 20px;
+		line-height: 60px;
 	}
 	.logo img{
 		width: 200px;
